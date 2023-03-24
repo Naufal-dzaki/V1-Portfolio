@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="../src/css/index.css" />
+  </head>
+
+  <body>
+    <nav
+      class="bg-transparent backdrop-blur-md px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b border-semi-transparent dark:border-gray-600">
+      <div
+        class="container flex flex-wrap items-center justify-between mx-auto bg-transparent backdrop-blur-md">
+        <div class="flex items-center md:hidden"></div>
+
+        <div class="flex md:order-2">
+          <button
+            data-collapse-toggle="navbar-sticky"
+            type="button"
+            class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-semi-transparent focus:outline-none focus:ring-2 focus:ring-semi-transparent dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky"
+            aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-sticky">
+          <ul
+            class="flex flex-col p-4 mt-4 bg-transparent border rounded-lg border-semi-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md dark:border-gray-700">
+            <li>
+              <a
+                href="index.html"
+                class="block py-2 pl-3 pr-4 rounded text-unactive-color hover:bg-semi-transparent md:hover:bg-transparent md:hover:text-active-color md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="about.html"
+                class="block py-2 pl-3 pr-4 rounded text-unactive-color hover:bg-semi-transparent md:hover:bg-transparent md:hover:text-active-color md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="skill.html"
+                class="block py-2 pl-3 pr-4 rounded text-unactive-color hover:bg-semi-transparent md:hover:bg-transparent md:hover:text-active-color md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Skill</a
+              >
+            </li>
+            <li>
+              <a
+                href="projects.html"
+                class="block py-2 pl-3 pr-4 rounded text-active-color hover:bg-semi-transparent md:hover:bg-transparent md:hover:text-active-color md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                class="block py-2 pl-3 pr-4 rounded text-unactive-color hover:bg-semi-transparent md:hover:bg-transparent md:hover:text-active-color md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main content  -->
+    <div
+      class="grid pt-20 pb-10 mx-6 md:pt-24 lg:pt-28 justify-items-start md:container md:mx-auto md:px-6 lg:px-10">
+      <h1
+        class="text-xl font-bold border-b-4 border-active-color text-active-color sm:text-2xl lg:text-3xl">
+        Projects
+      </h1>
+
+      <p
+        class="my-4 text-base md:text-lg lg:text-xl text-basic-color font-paragraph">
+        Because actions speak louder than words, i help you build better
+        software today for a better future. These are some of the projects I do
+        in my spare time.
+      </p>
+
+      <!-- card projects  -->
+      <div
+        class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 justify-self-center">
+        <div
+          class="mt-5 overflow-hidden rounded-lg bg-basic-color w-72 md:justify-self-start">
+          <img
+            src="./img/portofolio/slide-1.png"
+            alt="Besmart"
+            class="rounded-lg" />
+          <div class="relative h-12">
+            <h3
+              class="absolute my-2 text-xl font-medium text-active-color left-2">
+              Besmart
+            </h3>
+            <a
+              href="projectDetails.html"
+              class="absolute w-20 h-8 my-2 leading-8 text-center rounded-md bg-active-color text-basic-color right-2"
+              >Details</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../node_modules/flowbite/dist/flowbite.js"></script>
+  </body>
+</html>

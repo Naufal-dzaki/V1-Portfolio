@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../src/css/index.css" />
+</head>
+
+<body>
+
+    <nav
+      class="bg-transparent backdrop-blur-md px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b border-semi-transparent"
+    >
+      <div
+        class="container flex flex-wrap items-center justify-between mx-auto bg-transparent backdrop-blur-md"
+      >
+        <div class="flex items-center md:hidden"></div>
+
+        <div class="flex md:order-2">
+          <button
+            data-collapse-toggle="navbar-sticky"
+            type="button"
+            class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-semi-transparent focus:outline-none focus:ring-2 focus:ring-semi-transparent"
+            aria-controls="navbar-sticky"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-sticky"
+        >
+          <ul
+            class="flex flex-col p-4 mt-4 bg-transparent border rounded-lg border-semi-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent"
+          >
+            <li>
+              <a
+                href="index.html"
+                class="block py-2 pl-3 pr-4 rounded text-unactive-color hover:bg-semi-transparent md:hover:bg-transparent md:hover:text-active-color md:p-0"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="about.html"
+                class="block py-2 pl-3 pr-4 rounded text-unactive-color hover:bg-semi-transparent md:hover:bg-transparent md:hover:text-active-color md:p-0"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="skill.html"
+                class="block py-2 pl-3 pr-4 rounded text-active-color hover:bg-semi-transparent md:hover:bg-transparent md:hover:text-active-color md:p-0"
+                >Skill</a
+              >
+            </li>
+            <li>
+              <a
+                href="projects.html"
+                class="block py-2 pl-3 pr-4 rounded text-unactive-color hover:bg-semi-transparent md:hover:bg-transparent md:hover:text-active-color md:p-0"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                class="block py-2 pl-3 pr-4 rounded text-unactive-color hover:bg-semi-transparent md:hover:bg-transparent md:hover:text-active-color md:p-0"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main content  -->
+    <div class="grid pt-20 pb-10 mx-6 md:pt-24 lg:pt-28 justify-items-start md:container md:mx-auto md:px-6 lg:px-10">
+        <h1 class="text-xl font-bold border-b-4 border-active-color text-active-color sm:text-2xl lg:text-3xl">Skill
+        </h1>
+
+        <p class="my-4 text-base md:text-lg lg:text-xl text-basic-color font-paragraph ">I'm using some language,
+            framework and design tools to make some awesome website.</p>
+
+        <div class="container">
+            <h2 class="text-base underline md:text-lg lg:text-xl text-basic-color font-paragraph">Language</h2>
+            <div class="flex flex-wrap mt-3 mb-2">
+                <div class="flex mx-2 mb-2 border border-semi-transparent">
+                    <img src="./img/logo/html.png" alt="Logo's HTML" class="w-12 m-2">
+                    <p class="my-4 mr-6 text-lg text-basic-color md:text-xl">HTML</p>
+                </div>
+
+                <div class="flex mx-2 mb-2 border border-semi-transparent">
+                    <img src="./img/logo/css.png" alt="Logo's css" class="w-12 m-2">
+                    <p class="my-4 mr-6 text-lg text-basic-color md:text-xl">CSS</p>
+                </div>
+
+                <div class="flex mx-2 mb-2 border border-semi-transparent">
+                    <img src="./img/logo/javascript.png" alt="Logo's Javascript" class="w-12 m-2">
+                    <p class="my-4 mr-6 text-lg text-basic-color md:text-xl">JavaScript</p>
+                </div>
+
+                <div class="flex mx-2 mb-2 border border-semi-transparent">
+                    <img src="./img/logo/php.png" alt="Logo's PHP" class="w-12 mx-4 my-2">
+                    <p class="my-4 mr-6 text-lg text-basic-color md:text-xl">PHP</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 class="text-base underline md:text-lg lg:text-xl text-basic-color font-paragraph">FrameWork</h2>
+            <div class="flex flex-wrap mt-3 mb-2">
+                <div class="flex mx-2 mb-2 border border-semi-transparent">
+                    <img src="./img/logo/tailwind.png" alt="Logo's HTML" class="h-10 m-3">
+                    <p class="my-4 mr-6 text-lg text-basic-color md:text-xl">Tailwind CSS</p>
+                </div>
+
+                <div class="flex mx-2 mb-2 border border-semi-transparent">
+                    <img src="./img/logo/bootstrap.png" alt="Logo's css" class="h-10 m-3">
+                    <p class="my-4 mr-6 text-lg text-basic-color md:text-xl">Bootstrap</p>
+                </div>
+
+                <div class="flex mx-2 mb-2 border border-semi-transparent">
+                    <img src="./img/logo/laravel.png" alt="Logo's Javascript" class="h-10 m-3">
+                    <p class="my-4 mr-6 text-lg text-basic-color md:text-xl">Laravel</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 class="text-base underline md:text-lg lg:text-xl text-basic-color font-paragraph">Design Tools</h2>
+            <div class="flex flex-wrap mt-3 mb-2">
+                <div class="flex mx-2 mb-2 border border-semi-transparent">
+                    <img src="./img/logo/figma.png" alt="Logo's HTML" class="h-10 m-3">
+                    <p class="my-4 mr-6 text-lg text-basic-color md:text-xl">Figma</p>
+                </div>
+
+                <div class="flex mx-2 mb-2 border border-semi-transparent">
+                    <img src="./img/logo/photoshop.png" alt="Logo's css" class="h-10 m-3">
+                    <p class="my-4 mr-6 text-lg text-basic-color md:text-xl">Photoshop</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- certification  -->
+        <h1 class="text-xl font-bold border-b-4 border-active-color text-active-color sm:text-2xl lg:text-3xl">
+            Certification</h1>
+        <!-- for mobile -->
+        <div class="grid grid-cols-1 mt-4 justify-items-center sm:hidden">
+            <img src="./img/pic/certificates.png" alt="certificate" class="order-3 mx-auto my-2 w-72 sm:order-1">
+
+            <h3 class="order-1 text-lg font-medium sm:text-xl md:text-2xl lg:text-3xl text-active-color sm:order-2 ">Certificate of Competence
+            </h3>
+            <p class="order-2 text-sm italic text-unactive-color sm:order-3 ">Software Enggineering Competency Skill KKNI
+                Level II</p>
+            <p class="order-4 text-basic-color sm:order-4 ">This certificate was issued on 18 May 2022 by the National
+                Professional
+                Certification
+                Agency in Indonesia ( BNSP ) . this sertificate is valid for 3 years.</p>
+        </div>
+        <!-- for dekstop -->
+        <div class="hidden mt-4 sm:grid sm:grid-cols-9 sm:gap-2 md:gap-4 lg:gap-6 ">
+            <div class="gambar sm:col-span-3">
+                <img src="./img/pic/certificates.png" alt="certificate" class="mx-auto my-2 w-60 sm:w-40 md:w-52 lg:w-72 ">
+            </div>
+            <div class="teks sm:col-span-6">
+                <h3 class="text-lg sm:text-xl md:text-2xl lg:text-3xl text-active-color">Certificate of Competence</h3>
+                <p class="text-sm italic text-unactive-color md:text-base sm:mb-2">Software Enggineering Competency Skill KKNI Level II</p>
+                <p class="text-basic-color sm:text-lg lg:text-xl sm:leading-6 ">This certificate was issued on 18 May 2022 by the National
+                    Professional Certification Agency in Indonesia (BNSP). This sertificate is valid for 3 years.</p>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+    <script src="../node_modules/flowbite/dist/flowbite.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../src/css/index.css" />
+  </head>
+
+  <body>
+    <nav
+      class="bg-transparent backdrop-blur-md px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b border-semi-transparent dark:border-gray-600">
+      <div
+        class="container flex flex-wrap items-center justify-between mx-auto bg-transparent backdrop-blur-md">
+        <div class="flex items-center md:hidden"></div>
+
+        <div class="flex md:order-2">
+          <button
+            data-collapse-toggle="navbar-sticky"
+            type="button"
+            class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-semi-transparent focus:outline-none focus:ring-2 focus:ring-semi-transparent dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky"
+            aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-sticky">
+          <ul
+            class="flex flex-col p-4 mt-4 bg-transparent border rounded-lg border-semi-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md dark:border-gray-700">
+            <li>
+              <a
+                href="index.html"
+                class="block py-2 pl-3 pr-4 rounded text-active-color md:bg-transparent md:text-active-color md:p-0 dark:text-active-color"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="about.html"
+                class="block py-2 pl-3 pr-4 rounded text-unactive-color hover:bg-semi-transparent md:hover:bg-transparent md:hover:text-active-color md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="skill.html"
+                class="block py-2 pl-3 pr-4 rounded text-unactive-color hover:bg-semi-transparent md:hover:bg-transparent md:hover:text-active-color md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Skill</a
+              >
+            </li>
+            <li>
+              <a
+                href="projects.html"
+                class="block py-2 pl-3 pr-4 rounded text-unactive-color hover:bg-semi-transparent md:hover:bg-transparent md:hover:text-active-color md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                class="block py-2 pl-3 pr-4 rounded text-unactive-color hover:bg-semi-transparent md:hover:bg-transparent md:hover:text-active-color md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main content  -->
+    <div
+      class="grid pt-20 md:pt-24 lg:pt-28 justify-items-center md:container md:mx-auto md:px-6 lg:px-10 md:flex md:flex-wrap md:justify-between md:items-center">
+      <div class="pt-4 md:flex md:order-last md:pt-0">
+        <img
+          src="img/pic/avatar.png"
+          alt=""
+          class="w-56 sm:w-72 md:w-60 lg:w-72 xl:w-80" />
+      </div>
+
+      <div class="mt-5 md:flex md:order-first sm:mt-7 md:mt-10">
+        <div class="block">
+          <h2
+            class="text-2xl font-bold sm:text-3xl lg:text-4xl text-basic-color">
+            Hello!
+          </h2>
+          <h1
+            class="text-3xl font-bold sm:text-4xl lg:text-5xl text-basic-color">
+            My Name is <span class="text-active-color"> Naufal Dzaki</span>
+          </h1>
+          <h2
+            class="text-2xl font-bold sm:text-3xl lg:text-4xl text-basic-color">
+            I'm a junior <span class="text-active-color auto-type"></span>
+          </h2>
+          <a href="projects.html"
+            ><button
+              class="px-3 py-2 mt-4 font-medium rounded-md bg-active-color hover:bg-unactive-color text-dark-basic-color">
+              MyProjects >
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="../src/js/typed.js"></script>
+
+    <script src="../node_modules/flowbite/dist/flowbite.js"></script>
+  </body>
+</html>
